@@ -1,0 +1,604 @@
+fatal: your current branch 'master' does not have any commits yet
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/.DS_Store b/.DS_Store
+new file mode 100644
+index 0000000..f458093
+Binary files /dev/null and b/.DS_Store differ
+diff --git a/Poppins-Light.ttf b/Poppins-Light.ttf
+new file mode 100644
+index 0000000..e457aee
+Binary files /dev/null and b/Poppins-Light.ttf differ
+diff --git a/Poppins-Regular.ttf b/Poppins-Regular.ttf
+new file mode 100644
+index 0000000..868384c
+Binary files /dev/null and b/Poppins-Regular.ttf differ
+diff --git a/Poppins-SemiBold.ttf b/Poppins-SemiBold.ttf
+new file mode 100644
+index 0000000..8987d80
+Binary files /dev/null and b/Poppins-SemiBold.ttf differ
+diff --git a/back.png b/back.png
+new file mode 100644
+index 0000000..cc266ca
+Binary files /dev/null and b/back.png differ
+diff --git a/categories.png b/categories.png
+new file mode 100644
+index 0000000..c7361b5
+Binary files /dev/null and b/categories.png differ
+diff --git a/discount.png b/discount.png
+new file mode 100644
+index 0000000..cf00243
+Binary files /dev/null and b/discount.png differ
+diff --git a/exchange.png b/exchange.png
+new file mode 100644
+index 0000000..d26e8a5
+Binary files /dev/null and b/exchange.png differ
+diff --git a/eye.png b/eye.png
+new file mode 100644
+index 0000000..d698720
+Binary files /dev/null and b/eye.png differ
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..3c1f106
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,127 @@
++<!DOCTYPE html>
++<html>
++<head>
++  <meta charset="UTF-8">
++  <title>Document</title>
++  <link rel="stylesheet" href="style.css">
++  <script src="script.js"></script>
++<body>
++  <div class="main">
++    <div class="header">
++      <div class="phone">
++        <img src="phone.png" alt="">
++         <p>2300-3560-222</p>
++      </div>
++      <div class="logo">
++        <img src="logo.png" alt="bazar">
++      </div>
++      <div class="square">
++        <img src="sale.png" alt="">
++      </div>
++    </div>
++    <!-- .header-->
++    <div class="menu">
++      <div class="categorie">
++        <img src="categories.png" alt="">
++      </div>
++      <div class="search">
++        <img src="search.png" alt="">
++      </div>
++      <div class="primary_menu">
++          <ul>
++            <li><a href="#">Home</a></li>
++            <li><a href="#">Furniture</a></li>
++            <li><a href="#">Chair</a></li>
++            <li><a href="#">Table</a></li>
++            <li><a href="#">Sofa</a></li>
++            <li><a href="#">Bedroom</a></li>
++            <li><a href="#">Blog</a></li>
++        </ul>
++      </div>
++    </div><!-- .menu-->
++    <div class="content">
++      <div class="slider">
++        <div class="text">
++          <h1>Indoor Furniture</h1>
++          <p>save up to 50% of all furniture</p>
++            <div class="shop_now">
++              <p>shop now</p>
++            </div>
++        </div>
++        <div class="left"><p><</p></div>
++        <div class="right"><p>></p></div>
++      </div><!-- .slider-->
++      <div class="hot_deals">
++        <div class="title">
++          <p>hot deals</p>
++          <div class="arrow">
++            <span class="arrow-points"></span>
++            <span class="arrow-points"></span>
++            <span class="arrow-points"></span>
++          </div>
++        </div>
++        <div class="product_name">
++          <p>Aenean Ru Bristique</p>
++            <div class="rating">
++              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
++            </div>
++            <div class="line">
++            </div>
++            <div class="price">
++              <p>$300.00</p>
++              <h4><strike>$350.00</strike></h4>
++            </div>
++            <div class="icon">
++              <ul>
++                <li><img src="eye.png" alt=""></li>
++                <li><img src="love.png" alt=""></li>
++                <li><img src="exchange.png" alt=""></li>
++              </ul>
++            </div>
++        </div>
++      </div><!-- .Hot_Deals-->
++      <div class="option">
++        <div class="block">
++          <div class="square_opt">
++            <div class="square_opt_small">
++              <img src="shipping.png" color="black" alt="">
++            </div>
++          </div>
++          <h2>Free Shipping</h2>
++          <p>all order</p>
++        </div>
++        <div class="block">
++          <div class="square_opt">
++            <div class="square_opt_small">
++              <img src="music.png" alt="">
++            </div>
++          </div>
++          <h2>24/7 customer</h2>
++          <p>support</p>
++        </div>
++        <div class="block">
++          <div class="square_opt">
++            <div class="square_opt_small">
++              <img src="back.png" alt="">
++            </div>
++          </div>
++          <h2>money back</h2>
++          <p>guarantee</p>
++        </div>
++        <div class="block">
++          <div class="square_opt">
++            <div class="square_opt_small">
++              <img src="discount.png" alt="">
++            </div>
++          </div>
++          <h2>MEMBER DISCOUNT</h2>
++          <p>first order</p>
++        </div>
++      </div><!-- .option-->
++      <div class="guest">
++        <div class="guest_b"></div>
++      </div>
++    </div><!-- .content-->
++  </div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/logo.png b/logo.png
+new file mode 100644
+index 0000000..9b37147
+Binary files /dev/null and b/logo.png differ
+diff --git a/love.png b/love.png
+new file mode 100644
+index 0000000..73cec1f
+Binary files /dev/null and b/love.png differ
+diff --git a/music.png b/music.png
+new file mode 100644
+index 0000000..810c0aa
+Binary files /dev/null and b/music.png differ
+diff --git a/phone.png b/phone.png
+new file mode 100644
+index 0000000..0295640
+Binary files /dev/null and b/phone.png differ
+diff --git a/sale.png b/sale.png
+new file mode 100644
+index 0000000..67d2dcd
+Binary files /dev/null and b/sale.png differ
+diff --git a/script.js b/script.js
+new file mode 100644
+index 0000000..596f3f2
+--- /dev/null
++++ b/script.js
+@@ -0,0 +1,31 @@
++$(document).ready(function() {
++	var totWidth=0;
++	var position = new Array();
++
++	$('#slides.slide').each(function(i){
++
++		position[i]= totWidth;
++		totWidth += $(this).width();
++
++		if (!$(this).width()) 
++		{
++			alert("Please, fill in width & height for all your images!");
++			return false;
++		}
++	});
++
++	$('#slides').width(totWidth);
++
++	$('#menu ul li a').click(function(e){
++		$('li.menuItem').removeClass('act').addClass('inact');
++		$(this).parent().addClass('act');
++
++		var pos = $(this).parent().prevAll('.menuItem').length;
++
++		$('#slides').stop().animate({marginLeft:-position[pos]+'px'}, 450);
++
++		e.preventDefault();
++	});
++
++	$('#menu ul li.menuItem:first').addClass('act').siblings().addClass('inact');
++});
+\ No newline at end of file
+diff --git a/search.png b/search.png
+new file mode 100644
+index 0000000..d71ead1
+Binary files /dev/null and b/search.png differ
+diff --git a/shipping.png b/shipping.png
+new file mode 100644
+index 0000000..32ef3a9
+Binary files /dev/null and b/shipping.png differ
+diff --git a/style.css b/style.css
+new file mode 100644
+index 0000000..4b454cf
+--- /dev/null
++++ b/style.css
+@@ -0,0 +1,355 @@
++html, body {
++    padding: 0;
++    margin: 0;
++}
++a {
++	display: inline-block;
++}
++@font-face {
++	font-family: Poppins-Light;
++	src: url(Poppins-Light.ttf);
++}
++@font-face {
++	font-family: Poppins-SemiBold;
++	src: url(Poppins-SemiBold.ttf)
++}
++@font-face {
++	font-family: Poppins-Regular;
++	src: url(Poppins-Regular.ttf)
++}
++.main {
++    width: 100%;
++    margin: 0 auto;
++    padding: 0;
++    }
++.header {
++	width: 100%;
++	margin: auto;
++    height: 145px;
++    display: block;
++    background: #363636;
++}
++.phone {
++  font-size: 44px;
++  color: rgb(213, 142, 50);
++  line-height: 0.955;
++  top: 55px;
++  position: absolute;
++  left: 200px;
++  float: left;
++}
++.phone img {
++	display: inline-block;
++}
++.phone p{
++	font-size: 16px;
++	font-family: "Poppins-Light";
++	color: #fff;
++	display: inline-block;
++	padding-left: 7px;
++	position: relative;
++	top: -7px;
++}
++.logo {
++	padding-top: 35px;
++	padding-left: 450px;
++	height: 80px;
++}
++.square {
++	width: 50px;
++	height: 50px;
++	background: #d58e32;
++	float: right;
++	margin-top: -60px;
++	margin-right: 25px;
++	-webkit-border-radius: 5px;
++	        border-radius: 5px;
++}
++.square img{
++	padding: 11px;
++}
++.menu {
++	width: 100%;
++	height: 85px;
++	margin: auto;
++	box-shadow: 0 0 10px rgba(0,0,0,0.5);
++	background: #FFF;
++}
++.primary_menu {
++	line-height: 75px;
++	float: right;
++	background: #FFF;
++}
++.primary_menu ul {
++	margin: 0;
++	padding: 0;
++	font-size: 0;
++}
++.primary_menu ul li {
++	display: inline-block;
++	list-style: none;
++	font-size: 16px;
++}
++.primary_menu ul li a {
++	color: #333;
++	text-decoration: none;
++	height: 85px;
++	line-height: 85px;
++	padding: 0 15px;
++}
++.primary_menu ul li a:hover {
++	background-color: #d58e32;
++	color: #fff;
++}
++.categorie {
++	float: left;
++	margin-top: 20px;
++	margin-left: 200px;
++	width: 212px;
++	height: 47px;
++	border: 1px solid black
++}
++.categorie img {
++	padding: 15px;
++}
++.search {
++	float: left;
++	margin-top: 20px;
++	border: 1px solid black;
++	width: 275px;
++	height: 47px;
++}
++.search img {
++	float: right;
++	padding: 15px;
++}
++.content {
++	width: 1144px;
++	margin: auto;
++}
++.slider {
++	width: 750px;
++	height: 505px;
++	float: right;
++	background-color: #cccccc;
++	
++	margin-left: 30px;
++}
++.text {
++	height: 215px;
++	margin-top: 145px;
++	background-color: #666666;
++}
++.text>h1 {
++	text-align: center;
++	padding-top: 80px;
++	font-size: 40px;
++	color: #FFF;
++	text-transform: uppercase;
++	font-family: "Poppins-Light";
++}
++.text>p {
++	text-align: center;
++	text-transform: uppercase;
++	color: #FFF;
++	font-family: "Poppins-Light";
++	margin-top: -35px;
++	font-size: 16px;
++}
++.shop_now {
++	height: 55px;
++	width: 135px;
++	margin-left: 310px;
++	margin-top: 23px;
++	-webkit-border-radius: 4px;
++	        border-radius: 4px;
++	background: #FFF;
++}
++.shop_now>p {
++	text-align: center;
++	line-height: 55px;
++	font-size: 15px;
++	text-transform: uppercase;
++	font-weight: bolder;
++}
++.left {
++	height: 40px;
++	width: 375px;
++	margin-top: 110px;
++	background: #2a2a2a;
++	float: left;
++}
++.left:hover {
++	background: #d58e32;
++}
++.left>p {
++	text-align: center;
++	color: #fff;
++}
++.right{
++	height: 40px;
++	width: 375px;
++	margin-top: 110px;
++	background: #2a2a2a;
++	float: right;
++}
++.right:hover {
++	background: #d58e32;
++}
++.right>p {
++	text-align: center;
++	color: #fff;
++}
++.hot_deals {
++	width: 360px;
++	height: 505px;
++	background-color: #f4f5f7;
++}
++.title {
++	height: 40px;
++	background: #2a2a2a;
++}
++.title>p {
++	margin-top: 8px;
++	margin-left: 25px;
++	text-transform: uppercase;
++	font-family: "Poppins-Light";
++	color: #fff;
++	float: left;
++}
++.arrow-points {
++	float: right;
++	display: inline;
++	margin: 15px 0 20px 0;
++}
++.arrow-points {
++	width: 10px;
++	height: 10px;
++	margin-right: 10px;
++	background: #e2e2e2;
++	-webkit-border-radius: 5px;
++	        border-radius: 5px;
++}
++.arrow-points:hover {
++	background: #d58e32;
++}
++.product_name {
++	margin-top: 300px;
++	height: 165px;
++	background: #FFF;
++	border: 1px solid #f4f5f7;
++}
++.product_name>p {
++	text-align: center;
++	font-weight: 700;
++	font-family: "Poppins-SemiBold";
++}
++.rating {
++	margin-right: 140px;
++	unicode-bidi: bidi-override;
++	direction: rtl;
++}
++.rating > span {
++	display: inline-block;
++	position: relative;
++	width: 1.1em;
++}
++.rating > span:hover:before,
++.rating > span:hover ~ span:before {
++	content: "★";
++	position: absolute;
++}
++.line {
++	border: 1px solid black;
++	margin-top: 20px;
++}
++.price {
++	margin-top: 25px;
++}
++.price > p {
++	float: right;
++	width: 95px;
++	height: 35px;
++	line-height: 35px;
++	font-size: 15px;
++	text-align: center;
++	background: #2a2a2a;
++	color: #ffffff;
++	font-family: "Poppins-SemiBold";
++}
++.price > h4 {
++	float: right;
++	margin-right: 8px;
++	margin-bottom: 10px;
++	color: #b7b7b7;
++	font-family: "Poppins-Regular";
++}
++.icon {
++	height: 35px;
++	display: block;
++}
++.icon ul {
++}
++.icon ul li {
++	display: inline;
++	height: 20px;
++	width: 20px;
++	border: 1px solid black;
++	margin-right: 10px;
++}
++.option {
++	height: 165px;
++	margin-top: 30px;
++}
++.block {
++	height: 120px;
++	width: 250px;
++	margin-right: 30px;
++	margin-top: 70px;
++	border: 1px solid #b7b7b7;
++	display: inline-block;
++}
++.block>h2 {
++	font-size: 13pt;
++	text-align: center;
++	text-transform: uppercase;
++	font-family: "Poppins-SemiBold";
++}
++.block>p {
++	font-size: 13pt;
++	margin-top: -15px;
++	text-align: center;
++	text-transform: uppercase;
++	font-family: "Poppins-Light";
++}
++.square_opt {
++	width: 75px;
++	height: 75px;
++	margin-left: 95px;
++	margin-top: -37px;
++	-webkit-border-radius: 37px;
++	        border-radius: 37px;
++	border: 1px solid #b7b7b7;
++}
++.square_opt_small {
++	width: 60px;
++	height: 60px;
++	margin-left: 6px;
++	margin-top: 6px;
++	-webkit-border-radius: 30px;
++	        border-radius: 30px;
++	border: 1px solid #b7b7b7;
++}
++.square_opt_small img {
++	margin-left: 16px;
++	margin-top: 16px;
++}
++.block:hover {
++	background: #d58e32;
++}
++.guest {
++	height: 420px;
++	width: 555px;
++	background: #6a6a6a;
++	margin-top: 60px;
++}
+\ No newline at end of file
