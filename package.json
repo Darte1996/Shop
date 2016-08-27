@@ -1,0 +1,27 @@
+{
+  "name": "tolik-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "./node_modules/.bin/node-sass src/sass/main.scss src/styles.css --source-map-embed -w",
+    "http-server": "./node_modules/.bin/http-server src -o",
+    "start": "npm run sass-watch | npm run http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darte1996/Shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darte1996/Shop/issues"
+  },
+  "homepage": "https://github.com/Darte1996/Shop#readme"
+}

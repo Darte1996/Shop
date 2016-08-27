@@ -1,0 +1,4 @@
+Need to install nodejs from http://nodejs.org/
+
+npm install
+npm start
