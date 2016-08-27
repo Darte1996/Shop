@@ -389,3 +389,23 @@ a {
 	color: #FFF;
 	text-align: center;
 }
+.footer {
+	height: 430px;
+	width: auto;
+	background: #363636;
+}
+.copyright {
+	height: 100px;
+	width: auto;
+	background: #2a2a2a;
+}
+.copyright>p {
+	display: inline-block;
+	line-height: 100px;
+	font-size: 12pt;
+	text-align: center;
+	color: #a9a9a9;
+}
+.social {
+	float: right;
+}
